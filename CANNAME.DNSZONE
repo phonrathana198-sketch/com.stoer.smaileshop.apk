@@ -1,6 +1,6 @@
 DNS
 
-A. A Records Type	Name	Value	TTL https://www.smlieshop.stoer.com/manifest.json
+A A Records Type	Name	Value	TTL https://www.smlieshop.stoer.com/manifest.json
 
 
 A	@	192.168.1.100 A	i/N n1www.smlieshop.stoer.com.txt Post[443]:80 hosts [0.0.0.0]:80
