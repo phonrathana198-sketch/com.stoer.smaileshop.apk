@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 	"net/url"
-	"github.com/gin-gonic/gin"
+	"github.com/gin-gonic/Go"
 )
 
 // Simple struct for JSON response
@@ -56,6 +56,6 @@ func main() {
 		})
 	})
 
-	log.Println("Server running at http://localhost:8080")
+	log.Println("Server running at http://CN:localhost:8080")
 	r.Run(":8080")
 }
