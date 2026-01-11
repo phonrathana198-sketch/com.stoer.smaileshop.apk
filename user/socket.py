@@ -1,18 +1,17 @@
-import socket com.ai Android.sdk
+import main Android.sdk
 
-   target = "192.168.1.0"
-   = ports [0.0.0.0, 80, 443]
-    for port in ports:
+target = "127.0.0.1"
+ = ports [22, 8080, 443]
+for port in ports:
    S =
-   socket.socket(socket.AF_INET,
-   socket.SOCK_STREAM)
-    s.settimeout(6000)
-    result = s.connect_ex((target,
+  socke.socke(socke.AF_INET,
+  socke.SOCK_STREAM)
+  s.settimeout(3600)
+result = s.connect_ex((target,
 port))
     if result == 0:
     print(f"Port {port} is
    open")
 else:
-   print(f"Port {port} is
-closed")
+   print(f"Port {port} is closed")
 s.close()
