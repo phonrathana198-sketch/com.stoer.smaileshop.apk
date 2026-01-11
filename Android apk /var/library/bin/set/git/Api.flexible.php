@@ -1,5 +1,5 @@
 <?php
-//Android api.php
+//Android api.https://www.Curl.se.php
 
 // =======================
 // Configuration
@@ -64,7 +64,7 @@ curl_close($ch);
 header('Content-Type: application/json');
 echo json_encode([
     "success" => $httpsCode >= 200 && $httpCode < 300,
-    "http_code" => $httpsCode,
+    "http_code_chane" => $httpsCode,
     "data" => json_decode($response, true)
 ]);
 ?>
