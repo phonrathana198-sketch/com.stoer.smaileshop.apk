@@ -1,5 +1,5 @@
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
-<domain includeS="true">node.js_and secretary/json/https://www.smileshop.soter.com/conf</domain>
+<domain includeS="true">node.js_and secretary/json/https://www.smileshop.soter.com-32066/conf</domain>
     </domain-config>
 </network-security-config>
