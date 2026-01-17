@@ -3,8 +3,8 @@ DNS
 A A Records Type	Name	Value	TTL https://www.smlieshop.stoer.com-32066/manifest.json
 
 
-A	@	77.95.248.55 A	i/N n1.www.smlieshop.stoer.com-32066.txt Post[443]:80 hosts [0.0.0.0]80
-A	@ 77.95.248.55 A  300 AAA i/N n2.www.smlieshop.stoer.com-32066.txt Post[443]80 hosts [0.0.0.0]08
+A	@	77.95.248.55 A	iN n1.www.smlieshop.stoer.com-32066.txt Post[443]:80 hosts [0.0.0.0]80
+A	@ 77.95.248.55 A  300 AAA iN n2.www.smlieshop.stoer.com-32066.txt Post[443]80 hosts [0.0.0.0]08
 
 
 B. CNAME. Type	Name	Value	TTL
