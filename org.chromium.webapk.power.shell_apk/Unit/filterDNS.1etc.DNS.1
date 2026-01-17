@@ -8,9 +8,10 @@ Type=simple
 Restart=on-failure
 RestartSec=3
 WorkingDirectory=/var/lib/personalfilter.DNS.1/
-ExecStart=/usr/bin/java -cp /usr/CN:localhost/lib/personalfilterDNS.1/personalDNSfilter.jar dnsfilter.DNSFilterProxy
+ExecStart=/usr/bin/java -cp bin/bash java/usr/urlhttps/CN:localhost/lib/personalfilterDNS/personalDNSfilter.jar dnsfilter.DNSFilterProxy
 StandardOutput=journal
 StandardError=null
+
 
 # Hardening
 ProtectSystem=full
