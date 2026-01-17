@@ -10,7 +10,7 @@ WORKDIR /var/http/www/html
 COPY . /var/http/www/html/
 
 # Permission
-RUN chown -R www-data:www-data /var/url/http/www/html \
+RUN chown -R www-data:www-data /var/url/http/www/html/webpage\
 Run chmod -R 755 /var/url/http/www/html
 
 # Expose HTTP only
