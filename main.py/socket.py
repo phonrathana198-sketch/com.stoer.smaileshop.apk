@@ -1,4 +1,4 @@
-import main Android.sdk
+import main android.sdk
 
 target = "127.0.0.1"
  = ports [22, 8080, 443]
